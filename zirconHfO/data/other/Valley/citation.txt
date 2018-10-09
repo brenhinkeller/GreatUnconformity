@@ -1,4 +1,4 @@
 Valley, J.W., Lackey, J.S., Cavosie, A.J., Clechenko, C.C., Spicuzza, M.J., Basei, M.A.S., Bindeman, I.N., Ferreira, V.P., Sial, A.N., King, E.M. and Peck, W.H., 2005. 4.4 billion years of crustal maturation: oxygen isotope ratios of magmatic zircon. Contributions to Mineralogy and Petrology, 150(6), pp.561-580.
 
 
-http://dx.doi.org/10.1007/s00410-005-0025-8
+http://doi.org/10.1007/s00410-005-0025-8

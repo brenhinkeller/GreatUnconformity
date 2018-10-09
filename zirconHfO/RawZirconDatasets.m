@@ -8,6 +8,10 @@ set(gca,'xdir','reverse')
 formatfigure;
 ylim([0 14])
 
+warning('off', 'MATLAB:print:FigureTooLargeForPage')
+fig = gcf; fig.PaperSize = [fig.PaperPosition(3) fig.PaperPosition(4)];
+saveas(fig,'ZirconO.pdf')
+
 
 %% Plot Hf dataset
 
@@ -19,3 +23,6 @@ ylim([-60, 20])
 
 % Add depleted mantle
 hold on; plot(0:0.1:4.5,(4.5-(0:0.1:4.5))*17/4.5)
+fig = gcf; fig.PaperSize = [fig.PaperPosition(3) fig.PaperPosition(4)];
+saveas(fig,'ZirconHf.pdf')
+
