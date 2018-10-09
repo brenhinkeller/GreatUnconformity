@@ -1,17 +1,17 @@
 %% Load datasets
 tic;
 
-[TerraneChron, TerraneChronText]=importdataset('data/Belousova/ZirconHf.csv','|');
+[TerraneChron, TerraneChronText]=importdataset('datasets/Belousova/ZirconHf.csv','|');
 
-[UCLA, UCLAtext]=importdataset('data/UCLA/ZirconHf.csv','|');
+[UCLA, UCLAtext]=importdataset('datasets/UCLA/ZirconHf.csv','|');
 
-[Dhuime, Dhuimetext]=importdataset('data/Dhuime/ZirconHf.csv','|');
+[Dhuime, Dhuimetext]=importdataset('datasets/Dhuime/ZirconHf.csv','|');
 
-[DhuimeHfO, DhuimeHfOtext]=importdataset('data/Dhuime/ZirconHfO.csv','|');
+[DhuimeHfO, DhuimeHfOtext]=importdataset('datasets/Dhuime/ZirconHfO.csv','|');
 
-[PayneHfO, PayneHfOtext]=importdataset('data/Payne/ZirconHfO.csv','|');
+[PayneHfO, PayneHfOtext]=importdataset('datasets/Payne/ZirconHfO.csv','|');
 
-[PayneO, PayneOtext]=importdataset('data/Payne/ZirconO.csv','|');
+[PayneO, PayneOtext]=importdataset('datasets/Payne/ZirconO.csv','|');
 
 toc;
 
@@ -23,7 +23,6 @@ zircon=concatenatedatasets(zircon, DhuimeHfO);
 zircon=concatenatedatasets(zircon, PayneHfO);
 zircon=concatenatedatasets(zircon, PayneO);
 % save zircon zircon
-
 
 zircontext=concatenatedatasets(UCLAtext, TerraneChronText);
 zircontext=concatenatedatasets(zircontext, Dhuimetext);
