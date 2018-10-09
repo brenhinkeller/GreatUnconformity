@@ -8,6 +8,7 @@ zirconHfO/datasets/*/*.xlsx
 zirconHfO/datasets/*/*/*.pdf
 zirconHfO/datasets/*/*/*.xls
 zirconHfO/datasets/*/*/*.xlsx
+zirconHfO/datasets/*/*/*.out
 mczircon.mat
 GreatUnconformityPNAS/
 *.ai
