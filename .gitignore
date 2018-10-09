@@ -1,3 +1,12 @@
 .DS_Store
-
+old*
 LID*
+dev/
+zirconHfO/data/*/*.pdf
+zirconHfO/data/*/*.xls
+zirconHfO/data/*/*.xlsx
+zirconHfO/data/*/*/*.pdf
+zirconHfO/data/*/*/*.xls
+zirconHfO/data/*/*/*.xlsx
+mczircon.mat
+GreatUnconformityPNAS/
