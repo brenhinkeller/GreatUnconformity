@@ -1,0 +1,191 @@
+Structure Name	Location	Age	Age_Min	Age_Max	Diameter	Erosion_Min	Erosion_Max
+Kamil	Egypt	NaN	NaN	NaN	0.045		
+Carancas	Peru	0.000007	0.0000063	0.0000077	0.0135		
+Sikhote Alin	Russia	0.000067	0.0000603	0.0000737	0.027		
+Wabar	Saudi Arabia	0.00014	0.000126	0.000154	0.116		
+Haviland	Kansas, U.S.A.	< 0.001	0	0.001	0.015		
+Sobolev	Russia	< 0.001	0	0.001	0.053		
+Whitecourt	Alberta, Canada	<0.0011	0	0.0011	0.036		
+Campo Del Cielo	Argentina	< 0.004	0	0.004	0.05		
+Macha	Russia	< 0.007	0	0.007	0.3		
+Kaalijärv	Estonia	0.004 ± 0.001	0.003	0.005	0.11		
+Henbury	Northern Territory, Australia	0.0042 ± 0.0019	0.0023	0.0061	0.157		
+Morasko	Poland	< 0.01	0	0.01	0.1		
+Boxhole	Libya	0.0054± 0.0015	0.0039	0.0069	0.17		
+Ilumetsä	Estonia	0.0066	0.0033	0.0099	0.08		
+Tenoumer	Mauritania	0.0214 ± 0.0097	0.0117	0.0311	1.9		
+Odessa	Texas, U.S.A.	< 0.0635	0	0.0635	0.168		
+Barringer	Montana, U.S.A.	0.049 ± 0.003	0.046	0.052	1.19		
+Amguid	Algeria	< 0.1	0	0.1	0.45		
+Rio Cuarto	Argentina	< 0.1	0	0.1	4.5		
+Lonar	India	0.052 ± 0.006	0.046	0.058	1.83		
+Agoudal	Morocco	0.105 ± 0.04	0.065	0.145	3		
+Wolfe Creek	Western Australia	< 0.3	0	0.3	0.875		
+Tswaing (formerly Pretoria Saltpan)	South Africa	0.220 ± 0.052	0.168	0.272	1.13		
+Kalkkop	South Africa	0.250 ± 0.050	0.2	0.3	0.64		
+Dalgaranga	Western Australia	0.27	0.135	0.405	0.024		
+Monturaqui	Chile	< 1	0	1	0.46		
+Veevers	Western Australia	< 1	0	1	0.08		
+Xiuyan	China	> 0.05	0.05	1	1.8		
+Zhamanshin	Kazakhstan	0.9 ± 0.1	0.8	1	14		
+Bosumtwi	Northern Territory, Australia	1.07	0.963	1.177	10.5		
+New Quebec	North Dakota, U.S.A.	1.4 ± 0.1	1.3	1.5	3.44		
+Talemzane	Algeria	< 3	0	3	1.75		
+Kara-Kul	Tajikistan	< 5	0	5	52		
+Aouelloul	Mauritania	3.0 ± 0.3	2.7	3.3	0.39		
+El'gygytgyn	Saskatchewan, Canada	3.5 ± 0.5	3	4	18		
+Roter Kamm	Namibia	3.7 ± 0.3	3.4	4	2.5		
+Bigach	Ukraine	5 ± 3	2	8	8		
+Karla	Russia	5 ± 1	4	6	10		
+Steinheim	Germany	15 ± 1	14	16	3.8		
+Ries	Germany	15.1 ± 0.1	15	15.2	24		
+Colônia	Brazil	>5, <36	5	36	3.6		
+Eagle Butte	Alberta, Canada	< 65	0	65	10		
+Vista Alegre	Brazil	< 65	0	65	9.5		
+Chukcha	Russia	< 70	0	70	6		
+Ouarkziz	Algeria	< 70	0	70	3.5		
+Chesapeake Bay	Virginia, U.S.A.	35.3 ± 0.1	35.2	35.4	40		
+Popigai	Russia	35.7 ± 0.2	35.5	35.9	90	0.05	0.3
+Mistastin	Newfoundland/Labrador, Canada	36.4 ± 4	32.4	40.4	28		
+Wanapitei	Ontario, Canada	37.2 ± 1.2	36	38.4	7.5		
+Haughton	Nunavut, Canada	39	35.1	42.9	23		
+Beyenchime-Salaatin	Kazakhstan	40 ± 20	20	60	8		
+Logancha	Russia	40 ± 20	20	60	20		
+Logoisk	Belarus	42.3 ± 1.1	41.2	43.4	15		
+Crawford	South Australia	> 35	34	56	8.5		
+Flaxman	South Australia	> 35	34	56	10		
+Goat Paddock	Western Australia	< 50	40	50	5.1		
+Shunak	Kazakhstan	45 ± 10	35	55	2.8		
+Chiyli	Kazakhstan	46 ± 7	39	53	5.5		
+Ragozinka	Russia	46 ± 3	43	49	9		
+Jebel Waqf as Suwwan	Jordan	56 - 37	37	56	5.5		
+Avak	Alaska, U.S.A.	3-95	3	95	12		
+Gusev	Russia	49.0 ± 0.2	48.8	49.2	3		
+Kamensk	Russia	49.0 ± 0.2	48.8	49.2	25		
+Sierra Madera	Texas, U.S.A.	< 100	0	100	13		
+Montagnais	Nova Scotia, Canada	50.50 ± 0.76	49.74	51.26	45		
+Tin Bider	Algeria	< 70	35	70	6		
+Mount Toondina	South Australia	< 110	0	110	4		
+Connolly Basin	Western Australia	< 60	56	60	9		
+Marquez	Texas, U.S.A.	58 ± 2	56	60	12.7		
+B.P. Structure	Arizona, U.S.A.	< 120	0	120	2		
+Oasis	Libya	< 120	0	120	18		
+Chicxulub	Yucatan, Mexico	64.98 ± 0.05	64.93	65.03	150		
+Maple Creek	Saskatchewan, Canada	< 75	55	75	6		
+Boltysh	Ghana	65.17 ± 0.64	64.53	65.81	24		
+Kara	Russia	70.3 ± 2.2	68.1	72.5	65		
+Manson	Iowa, U.S.A.	74.1± 0.1	74	74.2	35		
+Lappajärvi	Finland	76.20 ± 0.29	75.91	76.49	23		
+Zeleny Gai	Ukraine	80 ± 20	60	100	3.5		
+Wetumpka	Alabama, U.S.A.	81.0 ± 1.5	79.5	82.5	6.5		
+Santa Marta	Brazil	66-100	66	100	10		
+Upheaval Dome	Utah, U.S.A.	< 170	0	170	10		
+Dellen	Sweden	89.0 ± 2.7	86.3	91.7	19		
+Kgagodi	Botswana	< 180	0	180	3.5		
+Steen River	Alberta, Canada	91 ± 7	84	98	25		
+Deep Bay	Saskatchewan, Canada	99 ± 4	95	103	13		
+Riachao Ring	Brazil	< 200	0	200	4.5		
+Carswell	Saskatchewan, Canada	115 ± 10	105	125	39		
+Tookoonoka	Queensland, Australia	128 ± 5	123	113	55		
+Rotmistrovka	Ukraine	120 ± 10	110	130	2.7		
+Mien	Sweden	121.0 ± 2.3	118.7	123.3	9		
+Vargeão Dome	Brazil	123 ±1.4	121.6	124.4	12		
+Des Plaines	Illinois, U.S.A.	< 280	0	280	8		
+Mjølnir	Norway	142.0 ± 2.6	139.4	144.6	40		
+Gosses Bluff	Northern Territory, Australia	142.5 ± 0.8	141.7	143.3	22		
+Morokweng	South Africa	145.0 ± 0.8	144.2	145.8	70	1.8	3
+Decaturville	Missouri, U.S.A.	< 300	0	300	6		
+Ile Rouleau	Quebec, Canada	< 300	0	300	4		
+Kentland	Indiana, U.S.A.	< 97	0	300	13		
+Liverpool	Northern Territory, Australia	150 ± 70	130	170	1.6		
+Middlesboro	Kentucky, U.S.A.	< 300	0	300	6		
+Tabun-Khara-Obo	Mongolia	150 ± 20	130	170	1.3		
+Serpent Mound	Ohio, U.S.A.	< 320	0	320	8		
+Vepriai	Lithuania	> 160 ± 10	150	170	8		
+Zapadnaya	Ukraine	165 ± 5	160	170	3.2		
+Puchezh-Katunki	Russia	167 ± 3	164	170	40		
+Obolon'	Ukraine	169 ± 7	162	176	20		
+Aorounga	Chad	< 345	0	345	12.6		
+Gweni-Fada	Chad, Africa	< 345	0	345	14		
+Gow	Saskatchewan, Canada	< 250	100	250	5		
+Piccaninny	Western Australia	< 360	0	360	7		
+Cloud Creek	Wyoming, USA	190 ± 30	160	220	7		
+Viewfield	Saskatchewan, Canada	190 ± 20	170	210	2.5		
+Nicholson	Northwest Territories, Canada	< 400	0	400	12.5		
+Red Wing	North Dakota, U.S.A.	200 ± 25	175	225	9		
+Serra da Cangalha	Brazil	< 300	100	300	12		
+Wells Creek	Tennessee, U.S.A.	200 ± 100	100	300	12		
+Rochechouart	France	201 ± 2	199	203	23		
+Manicouagan	Quebec, Canada	214 ± 1	213	215	85		
+Glasford	Illinois, U.S.A.	< 430	0	430	4		
+Saint Martin	Manitoba, Canada	220 ± 32	188	252	40		
+Karikkoselkä	Finland	230	184	276	1.5		
+Saqqar	Saudi Arabia	70 - 410	70	410	34		
+Glover Bluff	Wisconsin, U.S.A.	< 500	0	500	8		
+Kursk	Russia	250 ± 80	170	330	6		
+Newporte	Quebec, Canada	< 500	0	500	3.2		
+Presqu'ile	Quebec, Canada	< 500	0	500	24		
+Suvasvesi S	Finland	250	200	300	3.8		
+Rock Elm	Wisconsin, U.S.A.	< 505	0	505	6		
+Glikson	Western Australia	< 508	0	508	19		
+Araguainha	Brazil	254.7 ± 2.5	252.2	257.2	40		
+Ternovka	Ukraine	280 ± 10	270	290	11		
+Luizi	Democratic Republic of Congo	< 573	0	573	17		
+Clearwater West	Quebec, Canada	290 ± 20	270	310	36		
+Dobele	Latvia	290 ± 35	255	325	4.5		
+Tunnunik (Prince Albert)	Victoria Island, Arctic Canada	>130, <450	130	450	25		
+Mishina Gora	Russia	300 ± 50	250	350	2.5		
+Crooked Creek	Missouri, U.S.A.	320 ± 80	240	400	7		
+Charlevoix	Quebec, Canada	342 ± 15	327	357	54		
+West Hawk	Manitoba, Canada	351 ± 20	331	371	2.44		
+Flynn Creek	Tennessee, U.S.A.	360 ± 20	340	380	3.8		
+Woodleigh	Western Australia	364 ± 8	356	372	40		
+Siljan	Sweden	376.8 ± 1.7	375.1	378.5	52		
+Ilyinets	Ukraine	378 ± 5	373	383	8.5		
+Kaluga	Russia	380 ± 5	375	385	15		
+Elbow	Russia	395 ± 25	370	420	8		
+La Moinerie	Quebec, Canada	400 ± 50	350	450	8		
+Brent	Ontario, Canada	414	394	434	3.8	0.1	0.2
+Couture	Quebec, Canada	430 ± 25	405	455	8		
+Pilot	Northwest Territories, Canada	445 ± 2	443	447	6		
+Calvin	Michigan, USA	450 ± 10	440	460	8.5		
+Slate Islands	Ontario, Canada	450	360	540	30		
+Hummeln	Sweden	~ 443-470	433	470	1.2		
+Kärdla	Estonia	455	364	546	4		
+Tvären	Sweden	455	364	546	2		
+Lockne	Sweden	458	366.4	549.6	7.5		
+Målingen	Sweden	458	366.4	549.6	1		
+Clearwater East	Quebec, Canada	460-470	460	470	26		
+Ames	Oklahoma, U.S.A.	470 ± 30	440	500	16		
+Granby	Sweden	470	376	564	3		
+Gardnos	Norway	500 ± 10	490	510	5		
+Mizarai	Lithuania	500 ± 20	480	520	5		
+Suvasvesi N	Finland	< 1000	0	1000	4		
+Ritland	Norway	520 ± 20	500	540	2.7		
+Lawn Hill	Queensland, Australia	> 515	506	540	18		
+Neugrund	Estonia	535	428	642	8		
+Holleford	Ontario, Canada	550 ± 100	450	650	2.35		
+Sääksjärvi	Finland	560+/-12	548	572	6		
+Acraman	South Australia	590	580	600	90	1	3
+Beaverhead	Russia	600	480	720	60		
+Saarijärvi	Finland	600	480	720	1.5		
+Santa Fe	New Mexico , U.S.A.	< 1200	0	1200	9		
+Söderfjärden	Finland	600	480	720	6.6		
+Strangways	Northern Territory, Australia	646 ± 42	604	688	25		
+Foelsche	Northern Territory, Australia	> 545	545	850	6		
+Goyder	Northern Territory	< 1400	0	1400	3		
+Jänisjärvi	Russia	698 ± 22	676	720	14		
+Spider	Western Australia	> 570	570	900	13		
+Keurusselkä	Finland	< 1800	0	1800	30		
+Paasselkä	Finland	< 1800	0	1800	10		
+Lumparn	Finland	1000	800	1200	9		
+Iso-Naakkima	Finland	> 1000	900	1200	3		
+Kelly West	Northern Territory, Australia	> 550	550	1600	10		
+Amelia Creek	Northern Territory, Australia	1640 - 600	600	1640	20	1	2
+Matt Wilson	Northern Territory	1402 ± 440	962	1842	7.5		
+Shoemaker (formerly Teague)	Western Australia	1630 ± 5	568	2648	30		
+Sudbury	Ontario, Canada	1850 ± 3	1847	1853	130	4.2	5.8
+Dhala	India	> 1700 < 2100	1700	2100	11		
+Yarrabubba	Western Australia	2000	1600	2400	30		
+Vredefort	South Africa	2023 ± 4	2019	2027	160	8	11
+Suavjärvi	Russia	~2400	1920	2880	16		
