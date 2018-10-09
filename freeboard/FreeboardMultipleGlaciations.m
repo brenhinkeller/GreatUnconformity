@@ -1,5 +1,4 @@
 %% Estimate thermal and isostatic contributions
-    cd ~/Desktop/'zircon Hf GUn'/
 
     K_m = 1/1000^2*31556952;	% m^2/yr. Diffusivity (1 mm^2/s)
     alpha_m = 3*10^-5;          % 1/K. Coeff. of thermal expansion
@@ -88,7 +87,7 @@
     
 %     sedRate = 0.9*ones(size(t));                            % Constant sed rate
 %     totalExhumation = 4.5;
-    
+
     
     sedAccumulation = cumsum(1e6*dt * sedRate) / areaLand; % km
     isostaticFraction = (rho_crust-rho_water) / (rho_mantle - ((yLithosphere-yCrust)*rho_lithosphere + (yCrust)*rho_crust) / yLithosphere); % Crustal and lithospheric isostasy % Assume 1/2 of crust is generally covered by ocean
@@ -96,7 +95,7 @@
     if NormalizeSeaLevel
         Freeboard = Freeboard-Freeboard(end); % Normalize to present-day sea level
     end
-%     figure; hold on;
+    figure; hold on;
     plot(age,Freeboard)
     
     legend(num2str(yLithosphere));
@@ -115,17 +114,24 @@
         uncoveredFraction(i) = sum(etoposmall(:)>-Freeboard(i))/sum(etoposmall(:)>-40);
     end
     uncoveredFraction(isnan(Freeboard))=NaN;
-%     figure; hold on;
+    figure; hold on;
     plot(flipud(t),1-uncoveredFraction)
     set(gca,'Xdir','Reverse')
     xl = xlim;
     xlabel('Age (Ma)'); ylabel('Covered Fraction');
-%     plot(macrostrat.Time,macrostrat.Coverage)
+    plot(macrostrat.Time,macrostrat.Coverage)
     xlim(xl);
     legend('Model','Macrostrat')
     formatfigure;
     
     
+%% Add Ronov coverage fraction
     
+    RonovCoverage = importdataset('ronov_cont_flood.csv',',');
+    
+    t = contains(RonovCoverage.setting,'WHOLE CONTINENT');
+    
+    plot(RonovCoverage.mid_age(t),RonovCoverage.percent_flooded(t)/100,'.-')
+
     
     

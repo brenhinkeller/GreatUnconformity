@@ -5,7 +5,7 @@
 %%
 
 % Elements to include when resampling
-simitems={'Age';'d18O';'Hf176_Hf177';'Lu176_Hf177';'eHf_initial';'Discordance'};
+simitems={'Age';'d18O';'Hf176_Hf177';'Lu176_Hf177';'eHf_initial';'Discordance';'Continent';};
 
 % Check that age data is present
 agecol=strcmp(simitems,'Age');
@@ -25,7 +25,7 @@ for i=1:length(simitems)
     
     % For any NaN uncertainties that aren't NaN data, set relative uncertainty to global average
     test=isnan(uncertainty(:,i))&~isnan(data(:,i));
-    uncertainty(test,i)=nanmean(uncertainty(:,i));
+    uncertainty(test,i)=mean(uncertainty(~isnan(uncertainty(:,i)),i));
 end
 
 % Set minimum absolute age uncertainty
@@ -57,7 +57,7 @@ toc
 %% Run the monte carlo
 
 % Number of rows to simulate
-samplerows=10000000;
+samplerows=1E7;
 
 tic;
 fprintf('Allocating output matrix: ')

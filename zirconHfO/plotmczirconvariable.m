@@ -17,7 +17,7 @@ binoverlap = 3;
 
 test=~isnan(mczircon.(Elem));
 [c,m,e]=bin(mczircon.Age(test),mczircon.(Elem)(test),agemin,agemax,length(mczircon.Age)./length(zircon.Age),nbins,binoverlap);
-figure; errorbar(c,m,2*e,'.r')
+figure; errorbar(c,m,2*e,'.')
 xlabel('Age (Ma)'); ylabel(Elem); xlim([agemin, agemax])
 set(gca,'xdir','reverse');
 xlim([0 4500]);
@@ -270,5 +270,48 @@ plot([2415,2415],get(gca,'ylim')) %Koegas, Kirschvink et al, 1999
 plot([2940,2940],get(gca,'ylim')) %Pongola, von Brunn and Gold, 1993
 
 
+%% Plot by continent
 
 
+Elem='eHf_initial';
+agemin=0;
+agemax=4350;
+nbins = 145;
+binoverlap = 3;
+
+figure; hold on;
+
+test=~isnan(mczircon.(Elem)) & mczircon.Continent==2; % Eurasia
+[c,m,e]=bin(mczircon.Age(test),mczircon.(Elem)(test),agemin,agemax,length(mczircon.Age)./length(zircon.Age),nbins,binoverlap);
+errorbar(c,m,2*e,'.')
+
+test=~isnan(mczircon.(Elem)) & (mczircon.Continent==3 | mczircon.Continent==4); % North or South America
+[c,m,e]=bin(mczircon.Age(test),mczircon.(Elem)(test),agemin,agemax,length(mczircon.Age)./length(zircon.Age),nbins,binoverlap);
+errorbar(c,m,2*e,'.')
+
+test=~isnan(mczircon.(Elem)) & mczircon.Continent==5; % Australia
+[c,m,e]=bin(mczircon.Age(test),mczircon.(Elem)(test),agemin,agemax,length(mczircon.Age)./length(zircon.Age),nbins,binoverlap);
+errorbar(c,m,2*e,'.')
+
+legend('Eurasia','Americas','Australia')
+
+
+test=~isnan(mczircon.(Elem)) & (mczircon.Continent==1 | mczircon.Continent==7); % Africa and Antarctica
+[c,m,e]=bin(mczircon.Age(test),mczircon.(Elem)(test),agemin,agemax,length(mczircon.Age)./length(zircon.Age),nbins,binoverlap);
+errorbar(c,m,2*e,'.')
+
+xlabel('Age (Ma)'); ylabel(Elem); xlim([agemin, agemax])
+set(gca,'xdir','reverse');
+xlim([0 4000]);
+% ylim([-10 10]);
+set(gca,'ytick',[-10 -5 0 5 10])
+formatfigure;
+fig = gcf; fig.PaperSize = [fig.PaperPosition(3) fig.PaperPosition(4)];
+saveas(fig,'ZirconEHfSignalByContinent.pdf')
+
+
+%%
+
+mean(mcigncn1.K2O(~isnan(mcigncn1.K2O)))
+
+mean(mcigncn1.Age(~isnan(mcigncn1.Age)))
