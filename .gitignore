@@ -11,4 +11,7 @@ zirconHfO/datasets/*/*/*.xlsx
 zirconHfO/datasets/*/*/*.out
 mczircon.mat
 GreatUnconformityPNAS/
+GreatUnconformity.tex/
 *.ai
+*.ods
+.~lock*
