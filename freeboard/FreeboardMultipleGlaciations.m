@@ -19,7 +19,7 @@
     t = (0:dt:800)';    % Myr
     age = flipud(t);    % Ma
     
-    if ~exist('macrostrat','var'); load macrostrat; end
+    if ~exist('macrostrat','var'); load ../macrostrat/macrostrat.mat; end
     macrostratIndex = findclosest(flipud(t),macrostrat.Time-0.5); % Match macrostrat ages 
 
     sedRate = macrostrat.Volume(macrostratIndex)*6.07/1e6;  % Macrostrat sed rate
