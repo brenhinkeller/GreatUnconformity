@@ -2,7 +2,7 @@
 
     # using Images, ImageView
     using FileIO: load
-    using Images, Plots
+    using Images, Plots, Compat
     using StatGeochem
 
     img = load("TrenchSedimentThickness.tif")
@@ -78,7 +78,7 @@
     distance = Array{Float64}(size(lat))
     for i=1:length(lat)
         dist = arcdistance(lat[i],lon[i],latlist,lonlist)
-        k = indmin(dist)
+        k = argmin(dist)
         sed[i] = sedthicklist[k]
         distance[i] = dist[k]
         # Assume uncertainty is of the order of half the thickness
